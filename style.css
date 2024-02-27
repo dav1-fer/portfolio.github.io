@@ -4,16 +4,19 @@
     background-color: rgb(10, 15, 10);
     font-family: "Poppins", sans-serif;
     font-size: 14px;
+    color: #fff;
 }
 
 .logo{
-    width: 8%;
+    width: 100%;
+    max-width: 60px;
     margin-left: 15px;
 
 }
 
-ul{
-    display: inline-block;
+nav-links{
+    display: flex;
+    
 }
 
 li{
@@ -22,14 +25,34 @@ li{
 
 li a{
     text-decoration: none;
-    color: #ccc;
+    color: #fff;
 }
 
 li a:hover{
     color: #0f6ec2;
 }
 
+.hero-section{
+    margin-left: 5%;
+    max-width: 500px ;
+}
 h1{
     font-size: 40PX;
-    color: #fff;
+}
+
+.btn{
+    background-color: #0f6ec2;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    background-color: #f1fcfe;
+    color: #0f6ec2;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
 }
